@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./timer.jpg);
+    background-repeat: no-repeat;/* it will not allow our background image to get repeated images*/
+    background-size: cover;
+    min-height: 100vh; /*it will stretch the height of the image if the hight of the image is less then the window,
+    if its more than the window then it will do nothing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+h1{
+    font-size: 3rem;
+}
+.big_text{
+    font-size: 5rem;
+    line-height: 1;
+    margin: 5rem 4rem 1rem;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.aligning{
+    text-align:center;
+}
+
+.aligning span{
+    font-size:1.2rem;
+}
+
+
+.footer{
+    font-size: small;
+    text-align: center;
+    margin-top: 20rem;
+}
